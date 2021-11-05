@@ -182,6 +182,8 @@ header .control-wrapper input:checked + label:before {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    max-width: 992px;
+    margin: 0 auto;
   }
   .pricing-wrapper .price-card {
     -webkit-box-flex: 1;

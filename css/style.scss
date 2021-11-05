@@ -136,6 +136,8 @@ header {
     }
     .pricing-wrapper{
         flex-direction: row;
+        max-width:992px;
+        margin:0 auto;
         .price-card{
             flex-grow: 1;
             &:hover{
